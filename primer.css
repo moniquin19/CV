@@ -1,14 +1,32 @@
-.image {
-	max-width: 30%;
-	float: left;
+
+body{
+	margin: 0;
+	background: url('reticular_tissue/reticular_tissue.png');
+	box-sizing: border-box;
+}
+.imagen {
+	text-align: center;
+
 }
 
-.data {
-	max-width: 60%;
-	
+.imagen img{
+	margin: 10px auto;
+ 	border-radius: 50%;
 }
 
 h1 {
-	font-family: 'Slabo 27px', serif;
+	color: #333;
+}
 
+.personales {
+	background: #05E596;
+	margin: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.data {
+
+	color: #000000;
+	margin: 20px;
+	font-size: 20px;
 }
